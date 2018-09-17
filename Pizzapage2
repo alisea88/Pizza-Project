@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <title>Title</title>
+</head>
+<body>
+<table width="90%" border="1" align="center">
+    <thead>
+    <tr high="50%">
+        <td>Tony's Pizza Factory</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr width="90%" border="1" cellspacing="20" bgcolor="#87cefa">
+        <td height="60">Tony's Pizza Factory</td>
+    </tr>
+
+    <tr>
+        <td align="left"><h2>Pizza<br> <img src="pizza1.png" alt="Pizza Salami" width="75" height="70"></h2>
+        </td>
+    </tr>
+    </tbody>
+    <tfood>
+        <tr height="50">
+            <th></th>
+        </tr>
+        <tr>
+            <td bgcolor="#87cefa" height="20" align="left">Hours: <br> Mon- Thu: 11 am -23 pm <br>Fri-Sat: 11 am -24 pm
+                <br> Sunday closed
+            </td>
+        </tr>
+    </tfood>
+   </table>
+</body>
+</html>
