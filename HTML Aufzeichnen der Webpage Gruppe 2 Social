@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Projektarbeit: HTML Page erstellen für die Pizzeria mit der Vorlage "social", Aufgabe 1-9 -->
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <title>social</title>
+
+    <!-- tabelle stylen -->
+    <style type="text/css">
+        body {
+
+            font-family: Arial;
+        }
+
+        p {
+            font-size: large;
+        }
+
+        table {
+        }
+
+        td, th{
+            text-align: center;
+            font-weight: normal;
+            background-color: #eeeeee;
+            border: 2px solid white;
+            padding: 5px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <p>Social:</p>
+       <table width="90%"   >
+
+            <thead>
+                <tr>
+                    <th colspan="4"   height="60%">Navbar</th>
+                </tr>
+            </thead>
+
+            <!-- 1. Reihe  !-->
+           <tbody>
+                <tr>
+                    <td rowspan="2"  >3 <br/>&nbsp;</td>
+                    <td rowspan="2" colspan="2"  >7 - 12 <br/>&nbsp;</td>
+                    <td rowspan="2"  >2 <br/>&nbsp;</td>
+                </tr>
+
+               <!-- 2. Reihe für rowspan: zusammen nehmen!-->
+               <tr>
+               </tr>
+               <!-- 3. Reihe!-->
+                <tr>
+                    <td rowspan="2"  >3</td>
+                    <td  >3</td>
+                    <td  >7 - 9</td>
+                    <td   rowspan="2">2</td>
+                </tr>
+               <!-- 4. Reihe!-->
+                <tr>
+                    <td  >3</td>
+                    <td  >7 - 9</td>
+                </tr>
+               <!-- 5. Reihe!-->
+                <tr>
+                    <td rowspan="2"  >3</td>
+                    <td  >3</td>
+                    <td  >7 - 9</td>
+                    <td   rowspan="2">2</td>
+                </tr>
+                <!-- 6. Reihe!-->
+                <tr>
+                    <td  >3</td>
+                    <td  >7 - 9</td>
+                </tr>
+           </tbody>
+
+
+
+            <!-- 7. Reihe und footer!-->
+           <tfoot>
+           <tr>
+               <td colspan="4"  >Footer<br/>&nbsp;</td>
+           </tr>
+           </tfoot>
+        </table>
+    </font>
+</body>
+</html>
