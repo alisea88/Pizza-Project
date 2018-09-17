@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- Projektarbeit: HTML Page erstellen für die Pizzeria mit der Vorlage "social", ohne CSS vorerst -->
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <title>social</title>
+
+</head>
+<body>
+        <table width="90%" border="1">
+
+            <tbody>
+                <tr width="90%" border="1" cellspacing="20" bgcolor="#87cefa">
+                    <td height="60">Navbar</td>
+                </tr>
+
+                <tr>
+                    <td align="left"><h2>Salad <br> <img src="pizza1.png" alt="Pizzeria" height="75" width="100"></h2></td>
+                </tr>
+            </tbody>
+            <tfood>
+                  <tr>
+                      <td>
+                          <font size="1">
+                          <table border="0" bgcolor="#87cefa" bordercolor="#87cefa" height="50" width="100%">
+                              <tr >
+                                  <td width="35%">
+                                      Hours: <br> Mon- Thu: 11 am -23 pm <br>Fri-Sat: 11 am -24 pm <br> Sunday closed
+                                  </td>
+                                  <td width="40%">
+                                      "The Pizzeria is one place I have been <br> waiting to visit for a long time.
+                                      The <br> reason being their Rustica pizza which <br> absolutely blow me away" Jenny.
+                                  </td>
+                                  <td>
+                                      Adress: <br> Tony's Pizza Factory <br> 2122 N Clark St <br> Chicago, IL 60614, USA
+                                  </td>
+
+                              </tr>
+                          </table>
+                          </font>
+                      </td>
+                  </tr>
+
+            </tfood>
+        </table>
+    </font>
+</body>
+</html>
