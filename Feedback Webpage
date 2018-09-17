@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Projektarbeit: HTML Page erstellen für die Pizzeria, ohne CSS vorerst -->
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+    <title>Pizzeria</title>
+</head>
+<body>
+<font face="Bahnschrift">
+    <table width="90%" border="1" align="center">
+        <thead>
+        <tr high="50%">
+            <td>Tony's Pizza Factory</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr width="90%" border="1" cellspacing="20" bgcolor="#87cefa">
+            <td height="60">Tony's Pizza Factory</td>
+        </tr>
+
+        <tr>
+            <td align="center"><h2>Tell us what you think <br></h2>
+                <table border="1">
+                    <tr>
+                        <td>
+                            How do you like our pizza?
+                        </td>
+                        <td>
+                            Awesome
+                        </td>
+                        <td>
+                            Good
+                        </td>
+                        <td>
+                            Okay
+                        </td>
+                        <td align="right">
+                            Poor
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            What do you think about our prizes?
+
+                        </td>
+                        <td>
+                            Fair
+                        </td>
+                        <td>
+                            Okay
+                        </td>
+                        <td colspan="2" align="right">
+                            Expensive
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Your name?
+                        </td>
+                        <td colspan="4">
+                            Textfeld hier einfügen
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            Your Email adress?
+                        </td>
+                        <td colspan="4">
+                            Mail eingeben
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            What can we do better?
+                        </td>
+                        <td colspan="4">
+                            Text hier einfügen
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="5" align="right">
+                            send
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+
+        </tr>
+        </tbody>
+        <tfood>
+            <tr>
+                <td>
+                    <font size="1">
+                        <table border="0" bgcolor="#87cefa" bordercolor="#87cefa" height="50" width="100%">
+                            <tr >
+                                <td width="35%">
+                                    Hours: <br> Mon- Thu: 11 am -23 pm <br>Fri-Sat: 11 am -24 pm <br> Sunday closed
+                                </td>
+                                <td width="40%">
+                                    "The Pizzeria is one place I have been <br> waiting to visit for a long time.
+                                    The <br> reason being their Rustica pizza which <br> absolutely blow me away" Jenny.
+                                </td>
+                                <td>
+                                    Adress: <br> Tony's Pizza Factory <br> 2122 N Clark St <br> Chicago, IL 60614, USA
+                                </td>
+
+                            </tr>
+                        </table>
+                    </font>
+                </td>
+            </tr>
+
+        </tfood>
+    </table>
+</font>
+</body>
+</html>
