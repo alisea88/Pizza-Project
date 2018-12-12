@@ -1,83 +1,117 @@
 <!DOCTYPE html>
-<!-- Projektarbeit: HTML Page erstellen für die Pizzeria mit der Vorlage "social", ohne CSS vorerst -->
-<!-- 2. Schritt: CSS hinzufügen -->
 <html lang="en">
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="pizzastyling.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Tony's Pizza Factory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Melis &amp; Alisa">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="pizzastyling.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="jquery.js.css"></script>
+    <script src="ajax.js.css"></script>
+    <script src="bootstra.js.css"></script>
+    <style type="text/css"></style>
 
 </head>
-<body>
-<header>
-    <div class="w3-container">
-        <h6>Tony's Pizza Factory</h6>
-    </div>
+    <body>
+    <header>
+        <!-- start nav -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="index.html" target="content_body">
+                <img src="img/logo.png" class="img-thumbnail" alt="Tony's Pizza Factory">&nbspTony's Pizza Factory
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="nav navbar-nav navbar-right ml-auto">
+                        <li class="nav-item"> <a class="nav-link" href="Pizzapage2.html" target="content_body">Pizza</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="Salad%20page.html" target="content_body">Salad</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="Softdrinks.html" target="content_body">Softdrinks</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="Feedback%20Webpage.html" target="content_body">Feedback</a> </li>
+                    </ul>
+                </div>
+        </nav>
+        <div class="jumbotron jumbotron-fluid" id="banner">
+            <div class="parallax text-center" style="background-image: url(img/Hintergrund.jpg");="">
+                <div class="parallax-pattern-overlay">
+                    <div class="container text-center" style="height:580px;padding-top:170px;">
+                        <img id="site-title" src="img/pizzaofen.png">
+                        <h2 class="display-2"><b><span style="color: white;">Pizzeria</span></b></h2>
+                        <h3 class="learn"><span style="color: white;">Tony's Pizza Factory</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <!--about us section-->
+    <section class="aboutus" id="aboutus">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="heading text-center">
 
-
-    <!-- obere Teil -->
-
-    <div class="w3-container">
-        <table class="w3-table w3-blue">
-            <tr>
-                <td width="75%">
-                    <img src="img/logo.png" alt="Pizzalogo">Tony's Pizza Factory
-                </td>
-
-                <td>
-                   <ul>
-                       <li><a href="Pizzapage2">Pizza</a></li>
-                       <li><a href="Salad%20page">Salate</a></li>
-                       <li><a href="Softdrinks">Getränke</a></li>
-                       <li><a href="Feedback%20Webpage">Feedback</a></li>
-                   </ul>
-                </td>
-
-            </tr>
-
-        </table>
-    </div>
-</header>
-
-<!-- mittlere Teil -->
-
-
-
-<div class="w3-display-container">
-    <img  src="img/Hintergrund.jpg" alt="Pizza Magerita" width="99%" height="auto" >
-    <img src="img/pizzaofen.png" alt="Pizzaofen" class="w3-display-middle w3-small">
-    <div class="w3-display-middle w3-large w3-red">Pizzeria <br> Tony's Pizza Factory</div>
-</div>
-
-
-
-<!-- Footer Kontent -->
-
-<footer>
-
-    <div class="w3-container">
-        <table class="w3-table w3-blue">
-            <tr>
-                <td width="35%">
-                    Hours:<br>Mon- Thu: 11 am -23 pm <br>Fri-Sat: 11 am -24 pm <br> Sunday closed
-                </td>
-
-                <td width="40%">
-                    "The Pizzeria is one place I have been <br> waiting to visit for a long time.
-                    The <br> reason being their Rustica pizza which <br> absolutely blow me away" Jenny.
-                </td>
-
-                <td>
-                    Adress: <br> Tony's Pizza Factory <br> 2122 N Clark St <br> Chicago, IL 60614, USA
-                </td>
-
-            </tr>
-
-        </table>
-    </div>
-</footer>
-
-</body>
+     <img class="dividerline" src="" alt="Pizzaofen">
+                        <h2 id="unsere Bestseller">Our Bestseller</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card"> <img class="card-img-top" src="img/pizza5.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">4 seasons</h4>
+                            <a href="#" data-toggle="tooltip" title="This is a tooltip"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card"> <img class="card-img-top" src="img/pizza4.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Pizza wonderful</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card"> <img class="card-img-top" src="img/salad3.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Pizza Rucola</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card"> <img class="card-img-top" src="img/Salad1.png" alt="Card image cap">
+                        <div class="card-block">
+                            <h4 class="card-title">Salad everything</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer" id="footer">
+        <div class="row">
+            <div class="col-md-4"> Hours:<br>
+                Mon-Thu: 11 a.m. -23 p.m.<br>
+                Fri-Sat: 11 a.m.- 24 p.m.<br>
+                Sunday closed<br>
+                <br>
+            </div>
+            <div class="col-md-4" id="slogan">"The Pizzeria is one place I have been<br>
+                waiting to visit for a long time. The<br>
+                reason being their Rustica pizza which <br>
+                absolutely blew me away<br>
+                <br>
+            </div>
+            <div class="col-md-4"> Adresse:<br>
+                Tony's Pizza Factory<br>
+                2122 N Clark St<br>
+                Chicago, IL 60614, USA<br>
+                <br>
+            </div>
+        </div>
+    </section>
+    </body>
 </html>
