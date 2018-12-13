@@ -27,6 +27,33 @@ nav.navbar {
     font-size: 1.2em;
 
 }
+
+/*Styles for body */
+
+.card {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.card-body{
+
+    text-align: center;
+    font-size: medium;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
 /*styles for the footer*/
 
 #footer {
