@@ -1,0 +1,83 @@
+nav.navbar {
+    background: #bcd6ff;
+}
+/* change navbar-brand color on hover */
+.navbar a.navbar-brand:hover {
+    color: green;
+}
+/*  change navbar li colors, also active one but not disabled one */
+.navbar ul.navbar-nav li.nav-item a.nav-link {
+    color: black;
+}
+
+.content {
+    font-size: 1.2em;
+    align: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+
+}
+
+
+.card{
+    max-width: 200px;
+    height: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
+
+}
+
+
+#slogan{
+    font-style: italic;
+}
+
+
+/*styles for the footer*/
+#footer {
+    clear: right;
+    background: #bcd6ff;
+    font-size: small;
+
+    text-align: center !important;
+
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.nameemailInput{
+    margin-top: 2px;
+    height: 28px;
+    border: 2px solid grey;
+    font-size: 16px;
+    padding: 1px;
+    width: 21px;
+}
+
+.commentInput{
+    margin-top: 2px;
+    height: 100px;
+    border: 2px solid grey;
+    font-size: 16px;
+    padding: 1px;
+    width: 21px;
+}
+
+.btn{
+    padding: 1px;
+    width: 80px;
+}
+.val_Error{
+    color: red;
+}
